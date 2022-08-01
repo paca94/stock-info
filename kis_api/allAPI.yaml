@@ -8513,7 +8513,7 @@ OAuth인증:
         Length: "1"
         Description: |-
           [실전/모의투자]
-          HOSTAPO : 주식호가
+          H0STAP0 : 주식호가
     responses:
       - Element: MKSC_SHRN_ISCD
         한글명: 유가증권 단축 종목코드
