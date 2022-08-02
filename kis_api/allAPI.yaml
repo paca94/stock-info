@@ -9301,7 +9301,7 @@ OAuth인증:
       - Element: hashkey
         한글명: 해쉬키
         Type: String
-        Required: N
+        Required: Y
         Length: "256"
         Description: |-
           [POST API 대상] Client가 요청하는 Request Body를 hashkey api로 생성한 Hash값
@@ -9583,7 +9583,7 @@ OAuth인증:
       - Element: hashkey
         한글명: 해쉬키
         Type: String
-        Required: N
+        Required: Y
         Length: "256"
         Description: |-
           [POST API 대상] Client가 요청하는 Request Body를 hashkey api로 생성한 Hash값
@@ -12318,7 +12318,7 @@ OAuth인증:
       - Element: hashkey
         한글명: 해쉬키
         Type: String
-        Required: N
+        Required: Y
         Length: "256"
         Description: |-
           [POST API 대상] Client가 요청하는 Request Body를 hashkey api로 생성한 Hash값
@@ -12619,7 +12619,7 @@ OAuth인증:
       - Element: hashkey
         한글명: 해쉬키
         Type: String
-        Required: N
+        Required: Y
         Length: "256"
         Description: |-
           [POST API 대상] Client가 요청하는 Request Body를 hashkey api로 생성한 Hash값
@@ -12897,7 +12897,7 @@ OAuth인증:
       - Element: hashkey
         한글명: 해쉬키
         Type: String
-        Required: N
+        Required: Y
         Length: "256"
         Description: |-
           [POST API 대상] Client가 요청하는 Request Body를 hashkey api로 생성한 Hash값
@@ -13180,7 +13180,7 @@ OAuth인증:
       - Element: hashkey
         한글명: 해쉬키
         Type: String
-        Required: N
+        Required: Y
         Length: "256"
         Description: |-
           [POST API 대상] Client가 요청하는 Request Body를 hashkey api로 생성한 Hash값
