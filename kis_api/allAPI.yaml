@@ -9944,7 +9944,7 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "3"
-        Description: "※ 공란 : default"
+        Description: 공란(Default)
     responseHeaders:
       - Element: content-type
         한글명: 컨텐츠타입
@@ -12431,7 +12431,7 @@ OAuth인증:
         Type: String
         Required: N
         Length: "1"
-        Description: '"0"'
+        Description: '"0"(Default)'
     responseHeaders:
       - Element: content-type
         한글명: 컨텐츠타입
@@ -12973,7 +12973,7 @@ OAuth인증:
         Required: Y
         Length: "2"
         Description: |-
-          TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용
+          tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용
           00 : "매도/매수 주문"시 필수 항목
           02 : 취소
       - Element: PRDT_TYPE_CD
@@ -12982,7 +12982,7 @@ OAuth인증:
         Required: Y
         Length: "3"
         Description: |-
-          TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용
+          tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용
           515 : 일본
           501 : 홍콩 / 543 : 홍콩CNY / 558 : 홍콩USD
           507 : 베트남 하노이거래소 / 508 : 베트남 호치민거래소
@@ -12998,15 +12998,15 @@ OAuth인증:
         Type: String
         Required: N
         Length: "1"
-        Description: '"0"'
+        Description: '"0"(Default)'
       - Element: ORD_DVSN
         한글명: 주문구분
         Type: String
         Required: N
         Length: "20"
         Description: |-
-          JTTT3016U(미국 예약 매도 주문)인 경우만 사용
-          "00"
+          tr_id가 JTTT3016U(미국 예약 매도 주문)인 경우만 사용
+          "00"(Default)
     responseHeaders:
       - Element: content-type
         한글명: 컨텐츠타입
@@ -13058,7 +13058,7 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "8"
-        Description: TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 출력
+        Description: tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 출력
     examples:
       Request: |-
         {
@@ -13359,25 +13359,20 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: >-
-          /uapi/overseas-stock/v1/trading/dayornight 해외주식 주야간원장구분조회 (해외주식주문
-          API문서 참조)
-
-          PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분
-
+        Description: |-
+          ※ PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분해서 API 호출
+          - 해외주식주문 > 해외주식 주야간원장구분조회 API문서 참조
+          - url : /uapi/overseas-stock/v1/trading/dayornight
 
           [실전투자]
-
-          JTTT3018R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용) 통상 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 'Y'로 조회됨
-
+          JTTT3018R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
           TTTS3018R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
 
-
           [모의투자]
-
-          VTTT3018R : 야간용 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 사용
-
-          VTTS3018R : 주간용
+          VTTT3018R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          VTTS3018R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -13451,25 +13446,20 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: >-
-          /uapi/overseas-stock/v1/trading/dayornight 해외주식 주야간원장구분조회 (해외주식주문
-          API문서 참조)
-
-          PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분
-
+        Description: |-
+          ※ PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분해서 API 호출
+          - 해외주식주문 > 해외주식 주야간원장구분조회 API문서 참조
+          - url : /uapi/overseas-stock/v1/trading/dayornight
 
           [실전투자]
-
-          JTTT3018R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용) 통상 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 'Y'로 조회됨
-
+          JTTT3018R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
           TTTS3018R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
 
-
           [모의투자]
-
-          VTTT3018R : 야간용 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 사용
-
-          VTTS3018R : 주간용
+          VTTT3018R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          VTTS3018R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
       - Element: custtype
         한글명: 고객타입
         Type: String
@@ -13864,25 +13854,20 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: >-
-          /uapi/overseas-stock/v1/trading/dayornight 해외주식 주야간원장구분조회 (해외주식주문
-          API문서 참조)
-
-          PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분
-
+        Description: |-
+          ※ PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분해서 API 호출
+          - 해외주식주문 > 해외주식 주야간원장구분조회 API문서 참조
+          - url : /uapi/overseas-stock/v1/trading/dayornight
 
           [실전투자]
-
-          JTTT3012R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용) 통상 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 'Y'로 조회됨
-
+          JTTT3012R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
           TTTS3012R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
 
-
           [모의투자]
-
-          VTTT3012R : 야간용 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 사용
-
-          VTTS3012R : 주간용
+          VTTT3012R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          VTTS3012R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -13956,25 +13941,20 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: >-
-          /uapi/overseas-stock/v1/trading/dayornight 해외주식 주야간원장구분조회 (해외주식주문
-          API문서 참조)
-
-          PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분
-
+        Description: |-
+          ※ PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분해서 API 호출
+          - 해외주식주문 > 해외주식 주야간원장구분조회 API문서 참조
+          - url : /uapi/overseas-stock/v1/trading/dayornight
 
           [실전투자]
-
-          JTTT3012R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용) 통상 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 'Y'로 조회됨
-
+          JTTT3012R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
           TTTS3012R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
 
-
           [모의투자]
-
-          VTTT3012R : 야간용 23:30~06:00 (썸머타임 적용시 22:30~05:00)에 사용
-
-          VTTS3012R : 주간용
+          VTTT3012R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          VTTS3012R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
       - Element: custtype
         한글명: 고객타입
         Type: String
@@ -14357,17 +14337,19 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
+          ※ PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분해서 API 호출
+          - 해외주식주문 > 해외주식 주야간원장구분조회 API문서 참조
+          - url : /uapi/overseas-stock/v1/trading/dayornight
+
           [실전투자]
-          JTTT3001R : 야간용
-          TTTS3035R : 주간용
+          JTTT3001R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          TTTS3035R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
 
           [모의투자]
-          VTTT3001R : 야간용
-          VTTS3035R : 주간용
-
-          * 해외주식 주야간원장구분조회 API 문서 참조
-          - 야간 : PSBL_YN = "Y" (통상, 23:30~06:00 / 썸머타임 적용 시 22:30~05:00)
-          - 주간 : PSBL_YN = "N"
+          VTTT3001R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          VTTS3035R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -14442,17 +14424,19 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
+          ※ PSBL_YN(주야간 원장 구분) 값으로 tr_id 구분해서 API 호출
+          - 해외주식주문 > 해외주식 주야간원장구분조회 API문서 참조
+          - url : /uapi/overseas-stock/v1/trading/dayornight
+
           [실전투자]
-          JTTT3001R : 야간용
-          TTTS3035R : 주간용
+          JTTT3001R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          TTTS3035R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
 
           [모의투자]
-          VTTT3001R : 야간용
-          VTTS3035R : 주간용
-
-          * 해외주식 주야간원장구분조회 API 문서 참조
-          - 야간 : PSBL_YN = "Y" (통상, 23:30~06:00 / 썸머타임 적용 시 22:30~05:00)
-          - 주간 : PSBL_YN = "N"
+          VTTT3001R : PSBL_YN(주야간 원장 구분) = 'Y' (야간용)
+          (통상 23:30~06:00 / 썸머타임 적용시 22:30~05:00 에 'Y'로 조회됨)
+          VTTS3035R : PSBL_YN(주야간 원장 구분) = 'N' (주간용)
       - Element: custtype
         한글명: 고객타입
         Type: String
@@ -14986,7 +14970,7 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "32"
-        Description: 체결기준 현재 잔고수량
+        Description: 잔고수량
       - Element: -THDT_SLL_CCLD_QTY1
         한글명: 당일매도체결수량1
         Type: String
@@ -15424,7 +15408,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: JTTT3010R
+        Description: |-
+          [실전투자/모의투자]
+          JTTT3010R
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -15579,7 +15565,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: TTTS3014R
+        Description: |-
+          [실전투자]
+          TTTS3014R
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -15599,7 +15587,7 @@ OAuth인증:
         Type: String
         Required: N
         Length: "2"
-        Description: '법인 : "01" / default 개인: ""'
+        Description: '법인 : "01" / 개인: ""(Default)'
       - Element: mac_address
         한글명: 맥주소
         Type: String
@@ -15651,7 +15639,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: TTTS3014R
+        Description: |-
+          [실전투자]
+          TTTS3014R
       - Element: custtype
         한글명: 고객 타입
         Type: String
@@ -15694,12 +15684,11 @@ OAuth인증:
         Required: Y
         Length: "3"
         Description: |-
-          '512 미국 나스닥 / 513 미국 뉴욕거래소 / 529 미국 아멕스
+          512 미국 나스닥 / 513 미국 뉴욕거래소 / 529 미국 아멕스
           515 일본
           501 홍콩 / 543 홍콩CNY / 558 홍콩USD
           507 베트남 하노이거래소 / 508 베트남 호치민거래소
           551 중국 상해A / 552 중국 심천A
-          '
       - Element: CTX_AREA_FK200
         한글명: 연속조회검색조건200
         Type: String
@@ -15914,8 +15903,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          'TTTS3007R 주간,
-          JTTT3007R 야간'
+          TTTS3007R : 주간
+          JTTT3007R : 야간
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -15935,7 +15924,7 @@ OAuth인증:
         Type: String
         Required: N
         Length: "2"
-        Description: '법인 : "01" / default 개인: ""'
+        Description: '법인 : "01" / 개인: ""(Default)'
       - Element: mac_address
         한글명: 맥주소
         Type: String
@@ -15988,8 +15977,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          'TTTS3007R 주간,
-          JTTT3007R 야간'
+          TTTS3007R : 주간
+          JTTT3007R : 야간
       - Element: custtype
         한글명: 고객 타입
         Type: String
@@ -18374,7 +18363,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHKST03030100
+        Description: |-
+          [실전투자/모의투자]
+          FHKST03030100
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -18448,7 +18439,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHKST03030100
+        Description: |-
+          [실전투자/모의투자]
+          FHKST03030100
       - Element: custtype
         한글명: 고객 타입
         Type: String
@@ -18544,7 +18537,7 @@ OAuth인증:
         Type: String
         Required: N
         Length: "16"
-        Description: 16(11.4)
+        Description: 16(11.4) 정수부분 11자리, 소수부분 4자리
       - Element: -HTS_KOR_ISNM
         한글명: HTS 한글 종목명
         Type: String
@@ -18562,13 +18555,13 @@ OAuth인증:
         Type: String
         Required: N
         Length: "16"
-        Description: 16(11.4)
+        Description: 16(11.4) 정수부분 11자리, 소수부분 4자리
       - Element: -OVRS_PROD_LWPR
         한글명: 최저가
         Type: String
         Required: N
         Length: "16"
-        Description: 16(11.4)
+        Description: 16(11.4) 정수부분 11자리, 소수부분 4자리
       - Element: -STCK_BSOP_DATE
         한글명: 영업 일자
         Type: String
@@ -18580,13 +18573,13 @@ OAuth인증:
         Type: String
         Required: N
         Length: "16"
-        Description: 16(11.4)
+        Description: 16(11.4) 정수부분 11자리, 소수부분 4자리
       - Element: -OVRS_NMIX_LWPR
         한글명: 최저가
         Type: String
         Required: N
         Length: "16"
-        Description: 16(11.4)
+        Description: 16(11.4) 정수부분 11자리, 소수부분 4자리
     examples:
       Request: |-
                 "input": {
