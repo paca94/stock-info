@@ -3,7 +3,7 @@ OAuth인증:
     info:
       Method: POST
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /uapi/hashkey
       Format: JSON
       Content-Type: application/json
@@ -88,7 +88,7 @@ OAuth인증:
     info:
       Method: POST
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /oauth2/tokenP
       Format: JSON
       Content-Type: application/json; charset=UTF-8
@@ -148,7 +148,7 @@ OAuth인증:
     info:
       Method: POST
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /oauth2/revokeP
       Format: JSON
       Content-Type: application/json; charset=UTF-8
@@ -2812,7 +2812,7 @@ OAuth인증:
     info:
       Method: POST
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /uapi/domestic-stock/v1/trading/order-resv
       Format: JSON
       Content-Type: application/json; charset=utf-8
@@ -3085,7 +3085,7 @@ OAuth인증:
     info:
       Method: POST
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /uapi/domestic-stock/v1/trading/order-resv-rvsecncl
       Format: JSON
       Content-Type: application/json; charset=utf-8
@@ -3377,7 +3377,7 @@ OAuth인증:
     info:
       Method: GET
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /uapi/domestic-stock/v1/trading/order-resv-ccnl
       Format:  
       Content-Type:  
@@ -9203,7 +9203,7 @@ OAuth인증:
     info:
       Method: POST
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /uapi/domestic-futureoption/v1/trading/order
       Format: JSON
       Content-Type: application/json; charset=UTF-8
@@ -15520,7 +15520,7 @@ OAuth인증:
     info:
       Method: GET
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /uapi/overseas-stock/v1/trading/order-resv-list
       Format: JSON
       Content-Type: application/json; charset=utf-8
@@ -15857,7 +15857,7 @@ OAuth인증:
     info:
       Method: GET
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: https://openapivts.koreainvestment.com:29443
+      모의 Domain: 모의투자 미지원
       URL: /uapi/overseas-stock/v1/trading/inquire-psamount
       Format: JSON
       Content-Type:  
@@ -16121,7 +16121,7 @@ OAuth인증:
     info:
       Method: GET
       실전 Domain: https://openapi.koreainvestment.com:9443
-      모의 Domain: 모의투자 미지원
+      모의 Domain: https://openapivts.koreainvestment.com:29443
       URL: /uapi/overseas-price/v1/quotations/price
       Format:  
       Content-Type:  
