@@ -3716,7 +3716,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010100 : 주식현재가 시세
       - Element: tr_cont
         한글명: 연속 거래 여부
@@ -3792,7 +3792,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010100 : 주식현재가 시세
       - Element: custtype
         한글명: 고객타입
@@ -4252,7 +4252,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010300 : 주식현재가 체결
       - Element: tr_cont
         한글명: 연속 거래 여부
@@ -4328,7 +4328,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010300 : 주식현재가 체결
       - Element: custtype
         한글명: 고객타입
@@ -4424,7 +4424,7 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: ""
+        Description: 체결거래가 발생하는 시점의 체결강도
     examples:
       Request: |
         {
@@ -4507,7 +4507,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010400 : 주식현재가 일자별
       - Element: tr_cont
         한글명: 연속 거래 여부
@@ -4583,7 +4583,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010400 : 주식현재가 일자별
       - Element: custtype
         한글명: 고객타입
@@ -4797,7 +4797,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010200 : 주식현재가 호가 예상체결
       - Element: tr_cont
         한글명: 연속 거래 여부
@@ -4873,7 +4873,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010200 : 주식현재가 호가 예상체결
       - Element: custtype
         한글명: 고객타입
@@ -5354,7 +5354,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010900 : 주식현재가 투자자
       - Element: tr_cont
         한글명: 연속 거래 여부
@@ -5430,7 +5430,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010900 : 주식현재가 투자자
       - Element: custtype
         한글명: 고객타입
@@ -5681,7 +5681,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010600 : 주식현재가 회원사
       - Element: tr_cont
         한글명: 연속 거래 여부
@@ -5757,7 +5757,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKST01010600 : 주식현재가 회원사
       - Element: custtype
         한글명: 고객타입
@@ -6160,7 +6160,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKEW15010000 : ELW현재가 시세
       - Element: tr_cont
         한글명: 연속 거래 여부
@@ -6236,7 +6236,7 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전/모의투자]
+          [실전투자/모의투자]
           FHKEW15010000 : ELW현재가 시세
       - Element: custtype
         한글명: 고객타입
@@ -6509,11 +6509,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전투자]
+          [실전투자/모의투자]
           FHKST03010100
-
-          [모의투자]
-          미제공
     parameters:
       - Element: authorization
         한글명: 접근토큰
@@ -6831,11 +6828,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전투자]
+          [실전투자/모의투자]
           FHKUP03500100
-
-          [모의투자]
-          미제공
     parameters:
       - Element: authorization
         한글명: 접근토큰
@@ -6871,13 +6865,13 @@ OAuth인증:
           0001 : 종합
           0002 : 대형주
           ...
-          포탈 (FAQ : 업종코드 참조)
+          포탈 (FAQ : 종목정보 다운로드 - 업종코드 참조)
       - Element: FID_INPUT_DATE_2
         한글명: 조회 종료일자
         Type: String
         Required: Y
         Length: "10"
-        Description: 조회 종료일자 (20220530)
+        Description: 조회 종료일자 (ex. 20220530)
     responseHeaders:
       - Element: content-type
         한글명: 컨텐츠타입
@@ -7076,7 +7070,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHPST01060000
+        Description: |-
+          [실전투자/모의투자]
+          FHPST01060000
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -7150,7 +7146,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHPST01060000
+        Description: |-
+          [실전투자/모의투자]
+          FHPST01060000
       - Element: custtype
         한글명: 고객 타입
         Type: String
@@ -7383,7 +7381,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHPST02310000
+        Description: |-
+          [실전투자/모의투자]
+          FHPST02310000
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -7457,7 +7457,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHPST02310000
+        Description: |-
+          [실전투자/모의투자]
+          FHPST02310000
       - Element: custtype
         한글명: 고객 타입
         Type: String
@@ -7728,7 +7730,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHPST02320000
+        Description: |-
+          [실전투자/모의투자]
+          FHPST02320000
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -7802,7 +7806,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "13"
-        Description: FHPST02320000
+        Description: |-
+          [실전투자/모의투자]
+          FHPST02320000
       - Element: custtype
         한글명: 고객 타입
         Type: String
@@ -8513,7 +8519,7 @@ OAuth인증:
         Length: "1"
         Description: |-
           [실전/모의투자]
-          H0STAP0 : 주식호가
+          H0STASP0 : 주식호가
     responses:
       - Element: MKSC_SHRN_ISCD
         한글명: 유가증권 단축 종목코드
