@@ -201,7 +201,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -475,7 +475,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -763,7 +763,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -1025,7 +1025,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -1391,7 +1391,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -1973,7 +1973,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -2515,7 +2515,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -2820,7 +2820,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -3093,7 +3093,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -3385,7 +3385,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -3678,7 +3678,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -4214,7 +4214,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -4469,7 +4469,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -4759,7 +4759,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -5316,7 +5316,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -5643,7 +5643,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -6122,7 +6122,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -6553,7 +6553,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: tr_id
@@ -6876,7 +6876,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: tr_id
@@ -7033,7 +7033,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -7344,7 +7344,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -7693,7 +7693,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -8046,7 +8046,7 @@ OAuth인증:
       - Element: appkey
         한글명: 앱키
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: 한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)
       - Element: appsecret
@@ -8472,7 +8472,7 @@ OAuth인증:
       - Element: appkey
         한글명: 앱키
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: 한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)
       - Element: appsecret
@@ -8939,7 +8939,7 @@ OAuth인증:
       - Element: appkey
         한글명: 앱키
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: 한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)
       - Element: appsecret
@@ -9217,7 +9217,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -9499,7 +9499,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -9770,7 +9770,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -10282,7 +10282,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -10881,7 +10881,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -11140,7 +11140,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -11545,7 +11545,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -11930,7 +11930,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -12214,7 +12214,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -12527,7 +12527,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -12811,7 +12811,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -13097,7 +13097,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -13328,7 +13328,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -13823,7 +13823,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -14305,7 +14305,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -14759,7 +14759,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -15376,7 +15376,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: 한국투자증권 제공 API를 호출하기 위한 Request Body 데이타 포맷으로 "application/json;
           charset=utf-8" 설정
@@ -15534,7 +15534,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -15871,7 +15871,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -16135,7 +16135,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -16173,11 +16173,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전투자]
+          [실전투자/모의투자]
           HHDFS00000300
-
-          [모의투자]
-          미제공
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -16252,11 +16249,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전투자]
+          [실전투자/모의투자]
           HHDFS00000300
-
-          [모의투자]
-          미제공
       - Element: custtype
         한글명: 고객타입
         Type: String
@@ -16419,7 +16413,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
@@ -16457,11 +16451,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전투자]
+          [실전투자/모의투자]
           HHDFS76240000
-
-          [모의투자]
-          미제공
       - Element: tr_cont
         한글명: 연속 거래 여부
         Type: String
@@ -16536,11 +16527,8 @@ OAuth인증:
         Required: Y
         Length: "13"
         Description: |-
-          [실전투자]
+          [실전투자/모의투자]
           HHDFS76240000
-
-          [모의투자]
-          미제공
       - Element: custtype
         한글명: 고객타입
         Type: String
@@ -18332,7 +18320,7 @@ OAuth인증:
       - Element: content-type
         한글명: 컨텐츠타입
         Type: String
-        Required: Y
+        Required: N
         Length: "40"
         Description: application/json; charset=utf-8
       - Element: authorization
