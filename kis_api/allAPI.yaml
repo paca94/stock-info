@@ -2132,7 +2132,7 @@ OAuth인증:
         Type: String
         Required: N
         Length: "1"
-        Description: 공란
+        Description: 공란(,Default)
       - Element: UNPR_DVSN
         한글명: 단가구분
         Type: String
@@ -3007,7 +3007,7 @@ OAuth인증:
         Type: String
         Required: N
         Length: "8"
-        Description: ""
+        Description: (YYYYMMDD) 현재 일자보다 이후로 설정해야 함
     responseHeaders:
       - Element: content-type
         한글명: 컨텐츠타입
@@ -6532,7 +6532,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -6548,7 +6548,7 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "10"
-        Description: 종료일자 (20220530)
+        Description: 조회 종료일자 (ex. 20220530)
     responseHeaders:
       - Element: content-type
         한글명: 컨텐츠타입
@@ -6851,7 +6851,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -7084,7 +7084,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -7152,7 +7152,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -7395,7 +7395,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -7463,7 +7463,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -7744,7 +7744,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -7812,7 +7812,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -9273,7 +9273,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -9346,7 +9346,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -9398,7 +9398,7 @@ OAuth인증:
           01 : 지정가
           02 : 시장가
           03 : 조건부
-          04 : 최유리 (호가 유형 : 우측 설명 참조)
+          04 : 최유리
       - Element: CTAC_TLNO
         한글명: 연락전화번호
         Type: String
@@ -9555,7 +9555,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -9628,7 +9628,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -9670,7 +9670,9 @@ OAuth인증:
         Type: String
         Required: Y
         Length: "10"
-        Description: 전량일경우 공백
+        Description: |-
+          전량일경우 공백
+          ※ 모의계좌의 경우, 주문수량 반드시 입력 (공백 불가)
       - Element: NMPR_TYPE_CD
         한글명: 호가유형코드
         Type: String
@@ -9824,7 +9826,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -9895,7 +9897,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -10336,7 +10338,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -10407,7 +10409,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -10935,7 +10937,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -11006,7 +11008,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -11191,7 +11193,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -11259,7 +11261,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -11985,7 +11987,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -15584,7 +15586,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: "B : 법인 / P : 개인"
       - Element: seq_no
@@ -15650,7 +15652,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: "B : 법인 / P : 개인"
       - Element: mac_address
@@ -15929,7 +15931,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: "B : 법인 / P : 개인"
       - Element: seq_no
@@ -16001,7 +16003,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: "B : 법인 / P : 개인"
       - Element: mac_address
@@ -16477,7 +16479,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -16545,7 +16547,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -18384,7 +18386,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
@@ -18452,7 +18454,7 @@ OAuth인증:
       - Element: custtype
         한글명: 고객 타입
         Type: String
-        Required: Y
+        Required: N
         Length: "1"
         Description: |-
           B : 법인
