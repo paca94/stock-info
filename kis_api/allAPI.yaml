@@ -2132,7 +2132,7 @@ OAuth인증:
         Type: String
         Required: N
         Length: "1"
-        Description: 공란(,Default)
+        Description: 공란(Default)
       - Element: UNPR_DVSN
         한글명: 단가구분
         Type: String
@@ -13632,6 +13632,8 @@ OAuth인증:
           SHAA : 중국상해
           SZAA : 중국심천
           TKSE : 일본
+          HASE : 베트남 하노이
+          VNSE : 베트남 호치민
       - Element: -LOAN_TYPE_CD
         한글명: 대출유형코드
         Type: String
@@ -14504,6 +14506,8 @@ OAuth인증:
           SHAA : 중국상해
           SZAA : 중국심천
           TKSE : 일본
+          HASE : 베트남 하노이
+          VNSE : 베트남 호치민
       - Element: ORD_DT
         한글명: 주문일자
         Type: String
