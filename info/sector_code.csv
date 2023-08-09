@@ -355,6 +355,9 @@
 66405,05DJCI Platinum 2X Leveraged TR
 66500,00S&P500 VIX Short-Term F-Index
 66501,01S&P500 VIX Short-Term F-0.5x Inverse
+66502,02S&P Japanese Yen Futures
+66503,03S&P Japanese Yen Futures 2x Lever Dail
+66504,04S&P Japanese Yen Futures 2x Inv Daily
 66601,01코스피 커버드콜 5% OTM 선물지수
 66602,02코스피 커버드풋 5% OTM 선물지수
 66603,03iSTOXX Vietnam Futures
