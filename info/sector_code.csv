@@ -416,6 +416,10 @@
 66825,25코스피200 롱 코스닥150 0.5 숏 선물지수
 66826,26코스닥150 롱 코스피200 0.5 숏 선물지수
 66827,27코스닥150 미국달러 현선물혼합지수
+66830,30Nikkei 225 Futures Index
+66831,31Nikkei 225 Futures Inverse Index
+66832,32Nikkei 225 Futures Leveraged Index
+66833,33Nikkei 225 Futures Double Inverse Inde
 66841,41코스피200 10년국채 선물혼합지수
 66845,45KRX 2차전지 TOP 10 선물 TWAP 지수
 66846,46KRX 2차전지 TOP 10 선물 TWAP 인버스지수
